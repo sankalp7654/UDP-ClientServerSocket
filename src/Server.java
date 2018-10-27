@@ -27,7 +27,6 @@ public class Server {
 		
 		System.out.println("Square has been sent to Client");
 		
-
 	}
 
 }
