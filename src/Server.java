@@ -26,8 +26,7 @@ public class Server {
 		serverSocket.send(sendPacket);
 		
 		System.out.println("Square has been sent to Client");
-		
-
+		serverSocket.close();
 	}
 
 }

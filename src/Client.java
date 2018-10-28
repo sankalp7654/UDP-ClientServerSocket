@@ -29,6 +29,8 @@ public class Client {
 		String receivedData = new String(receivedByte, 0, receivedByte.length);
 		System.out.println("Below response is received from Server\nThe square is: " + receivedData);
 		
+		datagramSocket.close();
+		scanner.close();
 	}
 
 }
