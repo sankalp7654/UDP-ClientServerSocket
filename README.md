@@ -7,3 +7,6 @@ The following command compiles all the (.java) files present in **src** director
 ```sh
 $  javac -d bin src/*.java
 ```
+
+#### Note:
+Execute the above command in **UDP-ClientServerSocket** directory
